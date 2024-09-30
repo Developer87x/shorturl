@@ -8,8 +8,8 @@ using ShortUrl.Domain.SharedKernel;
 namespace ShortUrl.Domain.Repositories
 {
     public interface IShortUrlRepository :IRepository<Shorturl>
-    
     {
+        Task<Shorturl> GetById(Guid id);
         
     }
 }
