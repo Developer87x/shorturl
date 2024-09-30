@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortUrl.Application", "Sho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortUrl.Infrastructure", "ShortUrl.Infrastructure\ShortUrl.Infrastructure.csproj", "{F67F9AD2-B3DC-41D3-A943-8FF48B470BFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortUrl.Api", "ShortUrl.Api\ShortUrl.Api.csproj", "{07C038E3-0A25-4157-A216-34EF9C7C8F75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{F67F9AD2-B3DC-41D3-A943-8FF48B470BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F67F9AD2-B3DC-41D3-A943-8FF48B470BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F67F9AD2-B3DC-41D3-A943-8FF48B470BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C038E3-0A25-4157-A216-34EF9C7C8F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C038E3-0A25-4157-A216-34EF9C7C8F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C038E3-0A25-4157-A216-34EF9C7C8F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C038E3-0A25-4157-A216-34EF9C7C8F75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
